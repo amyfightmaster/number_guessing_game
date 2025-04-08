@@ -39,16 +39,16 @@
             let x = document.getElementById("guessField").value;
 
             if (x == y) {
-                alert("CONGRATULATIONS!!! YOU GUESSED IT RIGHT IN "
-                    + guess + " GUESS ");
+                alert("Way to go!  You guessed correctly in "
+                    + guess + " guess(es)! ");
             }
             else if (x > y) {
                 guess++;
-                alert("OOPS SORRY!! TRY A SMALLER NUMBER");
+                alert("Sorry!  Try guessing a smaller number!");
             }
             else {
                 guess++;
-                alert("OOPS SORRY!! TRY A GREATER NUMBER")
+                alert("Sorry! Try a larger number!")
             }
         }
             
